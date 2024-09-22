@@ -1,0 +1,7 @@
+CompileFlags:
+    Add: 
+    [
+        -std=c++23,
+        -I../include,
+        -Iglfw-3.4/include
+    ]
