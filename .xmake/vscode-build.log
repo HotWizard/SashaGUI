@@ -1,0 +1,4 @@
+[ 33%]: cache compiling.release src/SashaGUI.cpp
+[ 66%]: cache compiling.release src/RGBA.cpp
+[ 83%]: archiving.release libSashaGUI.a
+[100%]: build ok, spent 0.702s

@@ -7,7 +7,7 @@
 
 using namespace std;
 
-const inline size_t window_width = 800, window_height = 600;
+const inline SashaGUI::vector2<size_t> window_size(800, 600);
 const inline string windwo_title = "SashaGUI";
 
 GLFWwindow *window;
@@ -17,7 +17,7 @@ inline void init(void)
     if (!glfwInit() && !SashaGUI::init())
         exit(EXIT_FAILURE);
 
-    window = glfwCreateWindow(window_width, window_height, windwo_title.c_str(), NULL, NULL);
+    window = glfwCreateWindow(window_size.X(), window_size.Y(), windwo_title.c_str(), NULL, NULL);
 
     if (!window)
         exit(EXIT_FAILURE);

@@ -2,6 +2,7 @@
 #define SASHAGUI_HPP
 
 #include "RGBA.hpp"
+#include "vector.hpp"
 
 namespace SashaGUI
 {

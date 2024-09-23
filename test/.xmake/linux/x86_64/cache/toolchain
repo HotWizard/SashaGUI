@@ -1,46 +1,46 @@
 {
-    tool_target_test_linux_x86_64_cxx = {
-        program = "/usr/bin/gcc",
-        toolname = "gcc",
-        toolchain_info = {
-            cachekey = "gcc_arch_x86_64_plat_linux",
-            name = "gcc",
-            arch = "x86_64",
-            plat = "linux"
-        }
-    },
-    nim_arch_x86_64_plat_linux = {
-        plat = "linux",
-        arch = "x86_64",
-        __checked = true,
-        __global = true
-    },
-    zig_arch_x86_64_plat_linux = {
-        plat = "linux",
-        arch = "x86_64",
-        __checked = true,
-        __global = true
-    },
-    tool_target_test_linux_x86_64_ld = {
-        program = "/usr/bin/g++",
-        toolname = "gxx",
-        toolchain_info = {
-            cachekey = "gcc_arch_x86_64_plat_linux",
-            name = "gcc",
-            arch = "x86_64",
-            plat = "linux"
-        }
-    },
     gcc_arch_x86_64_plat_linux = {
-        plat = "linux",
-        arch = "x86_64",
         __checked = true,
+        arch = "x86_64",
+        plat = "linux",
         __global = true
     },
     cross_arch_x86_64_plat_linux = {
-        plat = "linux",
-        arch = "x86_64",
         __checked = true,
+        arch = "x86_64",
+        plat = "linux",
+        __global = true
+    },
+    tool_target_test_linux_x86_64_ld = {
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            name = "gcc",
+            arch = "x86_64",
+            plat = "linux"
+        },
+        program = "/usr/bin/g++",
+        toolname = "gxx"
+    },
+    tool_target_test_linux_x86_64_cxx = {
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            name = "gcc",
+            arch = "x86_64",
+            plat = "linux"
+        },
+        program = "/usr/bin/gcc",
+        toolname = "gcc"
+    },
+    nim_arch_x86_64_plat_linux = {
+        __checked = true,
+        arch = "x86_64",
+        plat = "linux",
+        __global = true
+    },
+    zig_arch_x86_64_plat_linux = {
+        __checked = true,
+        arch = "x86_64",
+        plat = "linux",
         __global = true
     }
 }
