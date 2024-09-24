@@ -1,6 +1,6 @@
 {
     files = {
-        "src/RGBA.cpp"
+        "src/point.cpp"
     },
     values = {
         "/usr/bin/gcc",
@@ -13,6 +13,6 @@
             "-DNDEBUG"
         }
     },
-    depfiles_gcc = "RGBA.o: src/RGBA.cpp src/../include/RGBA.hpp\
+    depfiles_gcc = "point.o: src/point.cpp src/../include/point.hpp\
 "
 }

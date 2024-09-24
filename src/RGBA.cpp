@@ -18,22 +18,22 @@ void SashaGUI::RGBA::set(const size_t &R, const size_t &G, const size_t &B, cons
     _A = A;
 }
 
-const size_t SashaGUI::RGBA::R(void) const
+const size_t &SashaGUI::RGBA::R(void) const
 {
     return _R;
 }
 
-const size_t SashaGUI::RGBA::G(void) const
+const size_t &SashaGUI::RGBA::G(void) const
 {
     return _G;
 }
 
-const size_t SashaGUI::RGBA::B(void) const
+const size_t &SashaGUI::RGBA::B(void) const
 {
     return _B;
 }
 
-const size_t SashaGUI::RGBA::A(void) const
+const size_t &SashaGUI::RGBA::A(void) const
 {
     return _A;
 }

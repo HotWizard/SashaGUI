@@ -1,4 +1,5 @@
 #include "../include/SashaGUI.hpp"
+
 #include <GL/gl.h>
 
 inline SashaGUI::RGBA background_color;

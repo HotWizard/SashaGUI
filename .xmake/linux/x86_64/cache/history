@@ -1,0 +1,7 @@
+{
+    cmdlines = {
+        "xmake check",
+        "xmake f --toolchain=gcc-14 -c",
+        "xmake l /home/sasha2k62024/.vscode/extensions/tboox.xmake-vscode-2.3.7/assets/explorer.lua"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    ["gcc-14_arch_x86_64_plat_linux"] = {
+        arch = "x86_64",
+        __checked = true,
+        plat = "linux",
+        __global = true
+    }
+}

@@ -1,0 +1,10 @@
+{
+    options = {
+        toolchain = "gcc-14",
+        clean = true
+    },
+    recheck = false,
+    mtimes = {
+        ["xmake.lua"] = 1727204416
+    }
+}
