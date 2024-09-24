@@ -1,4 +1,7 @@
 {
+    files = {
+        "src/SashaGUI.cpp"
+    },
     values = {
         "/usr/bin/gcc",
         {
@@ -10,9 +13,6 @@
             "-DNDEBUG"
         }
     },
-    depfiles_gcc = "SashaGUI.o: src/SashaGUI.cpp src/../include/SashaGUI.hpp  src/../include/RGBA.hpp\
-",
-    files = {
-        "src/SashaGUI.cpp"
-    }
+    depfiles_gcc = "SashaGUI.o: src/SashaGUI.cpp src/../include/SashaGUI.hpp  src/../include/RGBA.hpp src/../include/vector.hpp  src/../include/../src/vector.inl\
+"
 }

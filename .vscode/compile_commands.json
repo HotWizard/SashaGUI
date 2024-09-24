@@ -1,16 +1,1 @@
-[
-{
-  "directory": "/home/sasha2k62024/SashaGUI",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++23", "-DNDEBUG", "-o", "build/.objs/SashaGUI/linux/x86_64/release/src/SashaGUI.cpp.o", "src/SashaGUI.cpp"],
-  "file": "src/SashaGUI.cpp"
-},
-{
-  "directory": "/home/sasha2k62024/SashaGUI",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++23", "-DNDEBUG", "-o", "build/.objs/SashaGUI/linux/x86_64/release/src/RGB.cpp.o", "src/RGB.cpp"],
-  "file": "src/RGB.cpp"
-},
-{
-  "directory": "/home/sasha2k62024/SashaGUI",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++23", "-DNDEBUG", "-o", "build/.objs/SashaGUI/linux/x86_64/release/src/RGBA.cpp.o", "src/RGBA.cpp"],
-  "file": "src/RGBA.cpp"
-}]
+[]

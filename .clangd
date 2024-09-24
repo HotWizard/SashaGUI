@@ -1,0 +1,10 @@
+CompileFlags:
+    Add: 
+    [
+        -std=c++17,
+        -Wall,
+        -Werror,
+        -Wpedantic,
+        -Iinclude,
+        -Itest/glfw-3.4/include
+    ]

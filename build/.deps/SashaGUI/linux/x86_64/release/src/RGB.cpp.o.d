@@ -1,4 +1,7 @@
 {
+    files = {
+        "src/RGB.cpp"
+    },
     values = {
         "/usr/bin/gcc",
         {
@@ -9,9 +12,6 @@
             "-std=c++23",
             "-DNDEBUG"
         }
-    },
-    files = {
-        "src/RGB.cpp"
     },
     depfiles_gcc = "RGB.o: src/RGB.cpp src/../include/RGB.hpp\
 "
